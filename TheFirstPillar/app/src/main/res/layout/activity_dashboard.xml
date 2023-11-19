@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".dashboard">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="288dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/nastaliq_01"
+        android:text=" اذکار شریف"
+        android:textColor="@color/black"
+        android:textSize="15pt" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="288dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="274dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/nastaliq_01"
+        android:text="اندیشه های مداواگر"
+        android:textColor="@color/dark_blue"
+        android:textSize="15pt" />
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="288dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="468dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/nastaliq_01"
+        android:text="مکتب توحید"
+        android:textColor="@color/dark_blue"
+        android:textSize="15pt" />
+
+    <TextView
+        android:id="@+id/theVerse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="72dp"
+        android:fontFamily="@font/nastaliq_01"
+        android:gravity="center"
+        android:text="@string/theVeruse"
+        android:textColor="@color/dark_blue02"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/theLine"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="-43dp"
+        android:src="@drawable/white_line" />
+</RelativeLayout>

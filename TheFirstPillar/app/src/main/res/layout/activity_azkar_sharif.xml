@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="horizontal"
+    tools:context=".azkar_sharif">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="چله های شریف سیزده گانه"
+            android:textColor="@color/dark_blue02"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:fontFamily="@font/kufam"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btnTasmyaJat"
+            android:layout_width="370dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/light_blue"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="تسمیه جات شریف"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBarnamaMowaqat"
+            android:layout_width="370dp"
+            android:layout_height="93dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/light_blue"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="برنامه موقت"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/btnSonatMa"
+            android:layout_width="370dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="300dp"
+            android:backgroundTint="@color/light_blue"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="سنت ما"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/btnChelaAwal"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله اول"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+
+            />
+
+        <Button
+            android:id="@+id/btnChelaDowm"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله دوم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnChelaSwm"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="600dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله سوم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnChela4"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="700dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله چهارم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnChela5"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="800dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله پنجم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnChela6"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="900dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله ششم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnChela7"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1000dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله هفتم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnChela8"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1100dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله هشتم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnChela9"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1200dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله نهم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnChela10"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1300dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله دهم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnChela11"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1400dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله یازدهم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnChela12_1"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1500dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله دوازدهم-بخش اول "
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnChela12_2"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1600dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله دوازدهم-بخش دوم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnChela12_3"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1700dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله دوازدهم-بخش سوم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+            <Button
+            android:id="@+id/btnChela13"
+            android:layout_width="364dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1700dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nastaliq_01"
+            android:text="چله سیزدهم"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

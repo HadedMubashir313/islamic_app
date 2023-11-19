@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".schedule_one">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true">
+
+            <CheckBox
+                android:id="@+id/day1_c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/nastaliq_01"
+                android:layoutDirection="rtl"
+                android:text="         روز اول"
+                android:textColor="@color/white"
+                android:textSize="18pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <CheckBox
+                android:id="@+id/day2_c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/nastaliq_01"
+                android:layoutDirection="rtl"
+                android:text="         روز دوم"
+                android:textColor="@color/white"
+                android:textSize="18pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <CheckBox
+                android:id="@+id/day3_c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/nastaliq_01"
+                android:layoutDirection="rtl"
+                android:text="         روز سوم"
+                android:textColor="@color/white"
+                android:textSize="18pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <CheckBox
+                android:id="@+id/day4_c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/nastaliq_01"
+                android:layoutDirection="rtl"
+                android:text="         روز چهارم"
+                android:textColor="@color/white"
+                android:textSize="18pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <CheckBox
+                android:id="@+id/day5_c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/nastaliq_01"
+                android:layoutDirection="rtl"
+                android:text="         روز پنجم"
+                android:textColor="@color/white"
+                android:textSize="18pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <CheckBox
+                android:id="@+id/day6_c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="490dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/nastaliq_01"
+                android:layoutDirection="rtl"
+                android:text="         روز ششم"
+                android:textColor="@color/white"
+                android:textSize="18pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <CheckBox
+                android:id="@+id/day7_c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="580dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/nastaliq_01"
+                android:layoutDirection="rtl"
+                android:text="         روز هفتم"
+                android:textColor="@color/white"
+                android:textSize="18pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <CheckBox
+                android:id="@+id/day8_c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="670dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/nastaliq_01"
+                android:layoutDirection="rtl"
+                android:text="         روز هشتم"
+                android:textColor="@color/white"
+                android:textSize="18pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <CheckBox
+                android:id="@+id/day9_c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="760dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/nastaliq_01"
+                android:layoutDirection="rtl"
+                android:text="         روز نهم"
+                android:textColor="@color/white"
+                android:textSize="18pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <CheckBox
+                android:id="@+id/day10_c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="850dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/nastaliq_01"
+                android:layoutDirection="rtl"
+                android:text="         روز دهم"
+                android:textColor="@color/white"
+                android:textSize="18pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="78dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

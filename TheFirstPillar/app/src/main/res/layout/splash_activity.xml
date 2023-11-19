@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".splash_activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="108dp"
+        android:fontFamily="@font/kufam"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="299dp"
+        android:fontFamily="@font/kufam"
+        android:gravity="center"
+        android:text=" سکون قلب"
+        android:textColor="@color/dark_blue02"
+        android:textSize="30pt"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/theLogo"
+        android:layout_width="509dp"
+        android:layout_height="405dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="26dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txtKanon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/nastaliq_01"
+        android:gravity="center"
+        android:text="کانون فرهنگی علامه فیضانی (رح)"
+        android:textColor="@color/white"
+        android:textSize="8pt" />
+
+</RelativeLayout>

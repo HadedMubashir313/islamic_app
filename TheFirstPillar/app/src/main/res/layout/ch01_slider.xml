@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/main_background"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTittle"
+        android:layout_width="418dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="60dp"
+        android:fontFamily="@font/nastaliq_01"
+        android:gravity="center"
+        android:text="چله اول"
+        android:textColor="@color/dark_blue02"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textSabaq"
+        android:layout_width="338dp"
+        android:layout_height="184dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginRight="60dp"
+        android:fontFamily="@font/nastaliq_01"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:text="
+الْحَمْدُ لِلّهِ الَّذِي هَدَانَا لِهَذَا وَمَا كُنَّا لِنَهْتَدِيَ لَوْلا أَنْ هَدَانَا اللّه ُ- اعراف43
+"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="166dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="415dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="241dp"
+        android:layout_marginRight="60dp"
+        android:fontFamily="@font/nastaliq_01"
+        android:gravity="center"
+        android:text=" سبق : "
+        android:textColor="@color/dark_blue02"
+        android:textDirection="rtl"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTranslation"
+        android:layout_width="338dp"
+        android:layout_height="184dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="409dp"
+        android:layout_marginRight="60dp"
+        android:fontFamily="@font/nastaliq_01"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:text="ثنا و صفت مرخدای را که هدایت کرد ما را و اگر حضرت او جلت عظمته ما را بشاهراه مستقیم راهنمایی نمی کرد ما هرگز راهیاب نمی شدیم"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="166dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="415dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginRight="60dp"
+        android:fontFamily="@font/nastaliq_01"
+        android:gravity="center"
+        android:text=" ترجمه : "
+        android:textColor="@color/dark_blue02"
+        android:textDirection="rtl"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="166dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="336dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="658dp"
+        android:layout_marginRight="60dp"
+        android:fontFamily="@font/nastaliq_01"
+        android:gravity="center"
+        android:text=" مرتبه : "
+        android:textColor="@color/dark_blue02"
+        android:textDirection="rtl"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/times"
+        android:layout_width="166dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="656dp"
+        android:layout_marginRight="60dp"
+        android:fontFamily="@font/nastaliq_01"
+        android:gravity="center"
+        android:textColor="@color/dark_blue02"
+        android:textDirection="rtl"
+        android:textSize="50dp"
+        android:text=" 3 "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pageNum"
+        android:layout_width="166dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="803dp"
+        android:layout_marginRight="60dp"
+        android:fontFamily="@font/nastaliq_01"
+        android:gravity="center"
+        android:textColor="@color/dark_blue02"
+        android:textDirection="rtl"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
